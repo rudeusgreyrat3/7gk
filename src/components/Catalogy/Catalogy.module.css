@@ -1,0 +1,36 @@
+.catalogWrapper {
+    background-color: #D9D9D9;
+    padding: 20px; /* Добавь отступы, если нужно */
+  }
+
+  .catalogy {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+  }
+
+  .Categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .Categories h2 {
+    font-weight: 400;
+  }
+
+  .catalogy h1 {
+    font-weight: 500;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    
+    
+  }
+  

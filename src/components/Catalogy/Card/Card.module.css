@@ -1,0 +1,33 @@
+
+.Card{
+    display: flex;
+    width: 440px;
+    flex-direction: column;
+    margin: 20px;
+    background-color: #D9D9D9;
+    gap: 20px;
+    
+}
+.Card p{
+    font-size: 15px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price h2{
+    font-size: 30px;
+    color: blue;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
