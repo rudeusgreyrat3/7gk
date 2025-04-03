@@ -1,4 +1,4 @@
-import s from './BlueBtn.module.css'
+import s from './WhiteBtn.module.css'
 
 export default function BlueBtn({text='Button'}){
     return(

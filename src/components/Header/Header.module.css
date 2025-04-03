@@ -1,20 +1,22 @@
-.header{
+.header_inner{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
-    height: auto;
-    background-color: #e7e7e7ea;
+    padding: 15px 0;
+    /* background-color: none; */
 }
-
+.logo{
+    width: 50px;
+}
 .nav{
     display: flex;
-    gap: 50px;
+    gap: 40px;
 }
-
+.nav_item{
+    color: #000;
+    font-weight: 400;
+}
 .nav_btn{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    gap: 15px;
 }
