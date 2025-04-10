@@ -1,6 +1,6 @@
-import styles from './BlueBtn.module.css' 
+import styles from './GrayBtn.module.css' 
 
-    export default function BlueBtn({ text }) { 
+    export default function GrayBtn({ text}) { 
       return (
         <button  className={styles.btn} >
           {text} 
