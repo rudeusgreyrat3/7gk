@@ -1,12 +1,12 @@
 .catalogWrapper {
     background-color: #D9D9D9;
-    padding: 20px; /* Добавь отступы, если нужно */
+    padding: 20px; 
   }
 
   .catalogy {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     
   }
 
